@@ -1,16 +1,17 @@
+require("dotenv").config();
 const express = require("express");
 const line = require("@line/bot-sdk");
 
 const config = {
-  channelAccessToken: '6WhCU1Q/r5Q/MwaHueIo5SNsdsv57UOgIRgdxcTAoWN/5qNFsr9QFaDElVUT+kzFBibcQh0kViK4KzzZlbxVDO+q0aNGsTQmsXs+PBVtqe2xI+K4VOfmMPQpnWdJ5fEiXuJ9z7H3Ub0GYnWZwLobdgdB04t89/1O/w1cDnyilFU=',
-  channelSecret: '288a4b655ebc3670749a634a67a05879'
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
+  channelSecret: process.env.CHANNEL_SECRET
 };
 
 
 const app = express();
 
 const client = new line.messagingApi.MessagingApiClient({
-  channelAccessToken: config.channelAccessToken,
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
 });
 
 // 🏪 สาขา (เพิ่ม address แล้ว)
