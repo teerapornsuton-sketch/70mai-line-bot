@@ -170,7 +170,7 @@ async function handleEvent(event) {
   // 🧠 TEXT
   if (event.message.type === "text") {
 
-    if (event.message.text === "สาขา") {
+    if (event.message.text === "ค้นหาสาขา") {
       return client.replyMessage({
         replyToken: event.replyToken,
         messages: [{
