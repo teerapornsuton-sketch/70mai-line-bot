@@ -189,13 +189,7 @@ async function handleEvent(event) {
       });
     }
 
-    return client.replyMessage({
-      replyToken: event.replyToken,
-      messages: [{
-        type: "text",
-        text: "พิมพ์ 'สาขา' หรือส่งโลเคชั่นมาได้เลย 📍"
-      }]
-    });
+   
   }
 }
 
