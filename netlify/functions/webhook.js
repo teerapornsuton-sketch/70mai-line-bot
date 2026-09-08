@@ -36,6 +36,14 @@ const branches = [
     image: "https://res.cloudinary.com/duusfncu9/image/upload/v1777278866/Hashtag_ท่าพระ_wqdsic.jpg"
   },
   {
+    name: "สาขาเมืองเอกรังสิต",
+    address: "298 ถนนพหลโยธิน ตำบลคูคต อำเภอลำลูกกา จ.ปทุมธานี 12130",
+    lat: 13.967543119748482,
+    lng: 100.61897539525714,
+    phone: "0918966633",
+    image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Rangsit-01"
+  },
+  {
     name: "สาขาชลบุรี",
     address: "48/24 หมู่ 1 ต.ห้วยกะปิ อ.เมืองชลบุรี จ.ชลบุรี 20000",
     lat: 13.330720875239878,
