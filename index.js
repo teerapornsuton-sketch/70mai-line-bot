@@ -7,14 +7,13 @@ const config = {
   channelSecret: process.env.CHANNEL_SECRET
 };
 
-
 const app = express();
 
 const client = new line.messagingApi.MessagingApiClient({
   channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
 });
 
-// 🏪 สาขา (เพิ่ม address แล้ว)
+// 🏪 สาขา
 const branches = [
   {
     name: "สาขากาญจนาภิเษก",
@@ -39,6 +38,14 @@ const branches = [
     lng: 100.47997390256795,
     phone: "0934815081",
     image: "https://res.cloudinary.com/duusfncu9/image/upload/v1777278866/Hashtag_ท่าพระ_wqdsic.jpg"
+  },
+  {
+    name: "สาขาเมืองเอกรังสิต",
+    address: "298 ถนนพหลโยธิน ตำบลคูคต อำเภอลำลูกกา จ.ปทุมธานี 12130",
+    lat: 13.967543119748482,
+    lng: 100.61897539525714,
+    phone: "0918966633",
+    image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Rangsit-01"
   },
   {
     name: "สาขาชลบุรี",
