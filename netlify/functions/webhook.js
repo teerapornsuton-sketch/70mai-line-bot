@@ -17,7 +17,7 @@ const branches = [
     lat: 13.77545886937493,
     lng: 100.40940004974607,
     phone: "0987778654",
-    image: "https://res.cloudinary.com/duusfncu9/image/upload/f_auto,q_auto/กาญจนา_utcjjr"
+    image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Kanchana-01"
   },
   {
     name: "สาขารามอินทรา",
@@ -33,7 +33,7 @@ const branches = [
     lat: 13.709936960669902,
     lng: 100.47997390256795,
     phone: "0934815081",
-    image: "https://res.cloudinary.com/duusfncu9/image/upload/v1777278866/Hashtag_ท่าพระ_wqdsic.jpg"
+    image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Thapra-01"
   },
   {
     name: "สาขาเมืองเอกรังสิต",
