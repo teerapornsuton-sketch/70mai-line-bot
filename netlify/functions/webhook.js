@@ -41,7 +41,7 @@ const branches = [
     lat: 13.967543119748482,
     lng: 100.61897539525714,
     phone: "0918966633",
-    image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Rangsit-01"
+    image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Rangsit-03"
   },
   {
     name: "สาขาชลบุรี",
