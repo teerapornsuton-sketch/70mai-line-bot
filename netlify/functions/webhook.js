@@ -43,6 +43,14 @@ const branches = [
     phone: "0918966633",
     image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Rangsit-03"
   },
+   {
+    name: "สาขาราชพฤกษ์",
+    address: "24 ม.2 ถนนราชพฤกษ์ ตำบลอ้อมเกร็ด อำเภอปากเกร็ด นนทบุรี 11120",
+    lat: 13.907779693895797,
+    lng: 100.4505008534555,
+    phone: "0919066644",
+    image: "https://res.cloudinary.com/ghxexncf/image/upload/f_auto,q_auto/70mai_Ratchaphruek-01"
+  },
   {
     name: "สาขาชลบุรี",
     address: "48/24 หมู่ 1 ต.ห้วยกะปิ อ.เมืองชลบุรี จ.ชลบุรี 20000",
